@@ -187,6 +187,12 @@ mkdocs-gen-files/
 404.html
 sitemap.xml
 sitemap.xml.gz
+
+# Secret file types (fleet-kit pre-commit safety net)
+*.pfx
+*.p12
+*.pem
+*.key
 search/search_index.json
 
 # CI/CD artifacts
